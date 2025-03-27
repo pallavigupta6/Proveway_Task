@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>YAY! It's BOGO</h1>
+
+      <div class="box" id="box1">
+        <div class="box-header">
+          <input type="radio" name="unit-select" id="unit1" />
+          <label for="unit1">1 Unit</label>
+          <span class="discount">10% Off</span>
+          <span class="price">$10.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+        <div class="box-content"></div>
+      </div>
+
+      <div class="box active" id="box2">
+        <div class="box-header">
+          <input type="radio" name="unit-select" id="unit2" checked />
+          <label for="unit2">2 Unit</label>
+          <span class="discount">20% Off</span>
+          <span class="most-popular">MOST POPULAR</span>
+          <span class="price">$18.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+        <div class="box-content"></div>
+      </div>
+
+      <div class="box" id="box3">
+        <div class="box-header">
+          <input type="radio" name="unit-select" id="unit3" />
+          <label for="unit3">3 Unit</label>
+          <span class="discount">30% Off</span>
+          <span class="price">$24.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+        <div class="box-content"></div>
+      </div>
+
+      <div class="footer">
+        <div class="delivery">Free Delivery</div>
+        <div class="total">Total: $18.00 USD</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
